@@ -1,3 +1,3 @@
 # My-Portfolio
-A small site detailing my experience as a software engineer and web developer.
+A responsive site detailing my experience as a software engineer and web developer.
 
