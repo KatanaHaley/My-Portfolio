@@ -1,0 +1,157 @@
+
+main > div > article > section > header > , 
+main > div > article > section, 
+footer > div > nav > {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  font-family: 'Oswald', sans-serif;
+}
+
+html, body {
+  margin:0;
+  padding:0;
+  height:100%;
+}
+
+.footer {
+
+  flex-shrink: 0;
+
+}
+/* background/images */
+.bg-full-image {
+	position: center;
+	min-width: 580px;
+}
+
+.full-width {
+	width: 100%;	
+}
+
+.bg-full-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.light-background {
+  background-color: #dcc8e069;
+  color: #1E1E1E;
+}
+
+/* top */
+header h1 {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 40px;
+	float: left;
+	padding-top: 50px;
+	margin: 0 0 0 20px;
+}
+header h1 a  {
+	text-decoration: none;
+	color: #000000;
+}
+header h1 a:hover {
+	color: rgb(114, 110, 110);
+}
+
+/* structure */
+.wrapper {
+	width: 1000px;
+	margin: 5%;
+}
+
+.wrapper:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+/* navigation */
+nav {
+  float: right;
+  margin: 80px 20px 0 10;
+
+}
+
+nav a {
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: 18px;
+  color: #3e146e;
+  font-family: Quattrocento, sans-serif;
+
+}
+
+nav a:hover {
+  color: #777;
+}
+
+
+/* type */
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+/*header {
+  background-image: url("images/pink.jpg");
+}*/
+
+h1 {
+	font-family: Quattrocento, sans-serif;
+	font-size: 36px;
+	color: #000000;
+}
+
+h2 {
+	font-family: Quattrocento, sans-serif;
+	font-size: 27px;
+	color: #4e4c4c;
+}
+
+h3 {
+	font-family: Quattrocento, sans-serif;
+	font-size: 23px;
+	color: #777575;
+}
+
+h4 {
+	font-family: Quattrocento, sans-serif;
+	font-size: 20px;
+	color: #777575;
+}
+
+p {
+	font-family: Tahoma, sans-serif;
+	font-size: 18px;
+	line-height: 28px;
+	color: #777;
+}
+
+.align-right {
+  text-align: right;
+}
+
+/* Pseudo class selectors */
+
+a:link {
+  color: rgb(114, 114, 122);
+}
+a:visited {
+  color: rgb(106, 0, 148);
+}
+a:hover {
+  color: rgb(92, 154, 212);
+}
+a:active {
+  color: rgb(172, 14, 245);
+}
+
+/* Image */
+
+.aligncenter {
+    text-align: center;
+}
