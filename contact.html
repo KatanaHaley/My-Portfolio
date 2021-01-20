@@ -41,26 +41,31 @@
       </article>
 		</div>
     </main>
-
-	  
-	  <form
+<div class="container">
+<form
   action="https://formspree.io/f/mwkwqkjg"
-  method="POST"
->
-   <label>
-    Your name:
-    <textarea name="Your name"></textarea>
-  </label>
-
-  
-  <label>
+  method="POST"    
+  <ul class="flex-outer">
+      <ul>
+        <label for="first-name">Name</label>
+        <input type="text" id="Name" placeholder="Enter your first name here">
+      </ul>
+   
+     <label>
     Your email:
-    <input type="text" name="_replyto">
+    <input type="text" name="_replyto" placeholder="Enter your email here">
   </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
+      <ul>
+        <label for="message">Message</label>
+        <textarea rows="6" id="message" placeholder="Enter your message here"></textarea>
+      </ul>
+      
+      <ul>
+        <button type="submit">Submit</button>
+      </ul>
+    </ul>
+  </form>
+</div>
 
   <!-- your other form fields go here -->
 
